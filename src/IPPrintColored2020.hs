@@ -23,10 +23,10 @@ myColourPrefs =
       HsColour.string = [HsColour.Foreground HsColour.Red, HsColour.Bold],
       HsColour.char = [HsColour.Foreground HsColour.Magenta, HsColour.Bold],
       HsColour.number = [HsColour.Foreground HsColour.Green, HsColour.Bold],
-      HsColour.layout = [HsColour.Foreground HsColour.White],
+      HsColour.layout = [HsColour.Foreground HsColour.Blue],
       HsColour.keyglyph = [HsColour.Foreground HsColour.Magenta],
-      HsColour.comment = [HsColour.Foreground HsColour.White, HsColour.Bold],
-      HsColour.cpp = [HsColour.Foreground HsColour.Blue],
+      HsColour.comment = [HsColour.Foreground HsColour.Blue, HsColour.Bold],
+      HsColour.cpp = [HsColour.Foreground HsColour.Green],
       HsColour.definition = [HsColour.Foreground HsColour.Blue, HsColour.Bold]
     }
 
