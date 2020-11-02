@@ -20,7 +20,7 @@ description:
     .
     To switch to mono
     .
-    > :nocol
+    > :bw
 
 Homepage: https://github.com/gabrielbcn/IPPrintColored2020
 Author: Gabriel Mesquida Masana <gabriel.mesquida@me.com>
@@ -33,12 +33,9 @@ Cabal-version: >= 1.16
 extra-doc-files:
     README.md
 
-extra-source-files:
-    constraints
-
 source-repository head
     type: git
-    location: https://github.com/larskuhtz/ghci-pretty
+    location: https://github.com/gabrielbcn/IPPrintColored2020
 
 Library
     default-language: Haskell2010
