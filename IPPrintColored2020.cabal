@@ -1,5 +1,5 @@
 Name: IPPrintColored2020
-Version: 0.0.3
+Version: 0.0.4
 Synopsis: another pretty printing for GHCi, working in 2020
 description:
     Tired of seeing variations of packages to make GHCi output good enough for me , I have decided to consolidate one that works. Feel free to copy, modify, whatever. This one combines hscolour with pretty-show, which is a combination I have not been able to find (otherwise... don't code). 

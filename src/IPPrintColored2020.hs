@@ -20,14 +20,14 @@ myColourPrefs =
       HsColour.conop = [HsColour.Foreground HsColour.Yellow],
       HsColour.varid = [HsColour.Foreground HsColour.Cyan, HsColour.Bold],
       HsColour.varop = [HsColour.Foreground HsColour.Cyan],
-      HsColour.string = [HsColour.Foreground HsColour.Blue, HsColour.Italic],
-      HsColour.char = [HsColour.Foreground HsColour.Blue],
+      HsColour.string = [HsColour.Foreground HsColour.Red, HsColour.Bold],
+      HsColour.char = [HsColour.Foreground HsColour.Red],
       HsColour.number = [HsColour.Foreground HsColour.Green, HsColour.Bold],
       HsColour.layout = [HsColour.Foreground HsColour.White],
       HsColour.keyglyph = [HsColour.Foreground HsColour.Magenta],
       HsColour.comment = [HsColour.Foreground HsColour.White, HsColour.Bold],
-      HsColour.cpp = [HsColour.Foreground HsColour.Red],
-      HsColour.definition = [HsColour.Foreground HsColour.Red, HsColour.Bold]
+      HsColour.cpp = [HsColour.Foreground HsColour.Blue],
+      HsColour.definition = [HsColour.Foreground HsColour.Blue, HsColour.Bold]
     }
 
 myPrint :: (Show a) => a -> IO ()
