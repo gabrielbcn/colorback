@@ -8,10 +8,10 @@ module IPPrintColored2020
   )
 where
 
-import Language.Haskell.HsColour as HsColour
-import Language.Haskell.HsColour.Colourise as HsColour
-import Language.Haskell.HsColour.Output as HsColour
-import Text.Show.Pretty (ppShow)
+import           Language.Haskell.HsColour           as HsColour
+import           Language.Haskell.HsColour.Colourise as HsColour
+import           Language.Haskell.HsColour.Output    as HsColour
+import           Text.Show.Pretty                    (ppShow)
 
 myColourPrefs :: ColourPrefs
 myColourPrefs =
