@@ -1,4 +1,4 @@
-Name: colorback
+Name: Colorback
 Version: 0.1.0
 Synopsis: another pretty printing for GHCi, working in 2020
 description:
@@ -9,9 +9,9 @@ description:
     Add the following lines to your @ghci.conf@ file:
     .
     > -- Pretty printing in colour
-    > import colorback
-    > :set -interactive-print=colorback.myPrint
-    > :def col (\_ -> return ":set -interactive-print=colorback.myPrint")
+    > import Colorback
+    > :set -interactive-print=Colorback.myPrint
+    > :def col (\_ -> return ":set -interactive-print=Colorback.myPrint")
     > :def bw (\_ -> return ":set -interactive-print=print")
     .
     To switch to colour
@@ -35,7 +35,7 @@ extra-doc-files:
 
 source-repository head
     type: git
-    location: https://github.com/gabrielbcn/IPPrintColored2020
+    location: https://github.com/gabrielbcn/colorback
 
 Library
     default-language: Haskell2010

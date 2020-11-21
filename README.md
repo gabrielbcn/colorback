@@ -1,5 +1,5 @@
 
-# colorback
+# Colorback
 
 ## Because the Glasgow Haskell Compiler interactive environment is cooler with outputs properly formatted and in color
 
@@ -13,9 +13,9 @@ Tired of seeing variations of packages to make GHCi output good enough for me , 
 
 ``` haskell
 -- Pretty printing in colour
-import colorback
-:set -interactive-print=colorback.myPrint
-:def col (\_ -> return ":set -interactive-print=colorback.myPrint")
+import Colorback
+:set -interactive-print=Colorback.myPrint
+:def col (\_ -> return ":set -interactive-print=Colorback.myPrint")
 :def bw (\_ -> return ":set -interactive-print=print")
 ```
 
