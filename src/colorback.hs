@@ -1,12 +1,10 @@
--- Module: IPPrintColored2020
+-- Module: colorback
 -- License: Public Domain
 -- Author: Gabriel Mesquida Masana <gabriel.mesquida@me.com>
 -- Maintainer: Gabriel Mesquida Masana <gabriel.mesquida@me.com>
 
-module IPPrintColored2020
-    ( myPrint
-    )
-where
+module colorback ( myPrint)
+    where
 
 import           Language.Haskell.HsColour
                                 as HsColour
