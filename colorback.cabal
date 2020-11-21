@@ -1,34 +1,13 @@
 Name: Colorback
 Version: 0.1.0
 Synopsis: another pretty printing for GHCi, working in 2020
-description:
-    Tired of seeing variations of packages to make GHCi output good enough for me , I have decided to consolidate one that works. Feel free to copy, modify, whatever. This one combines hscolour with pretty-show, which is a combination I have not been able to find (otherwise... don't code). 
-    .
-    /Usage/
-    .
-    Add the following lines to your @ghci.conf@ file:
-    .
-    > -- Pretty printing in colour
-    > import Colorback
-    > :set -interactive-print=Colorback.myPrint
-    > :def col (\_ -> return ":set -interactive-print=Colorback.myPrint")
-    > :def bw (\_ -> return ":set -interactive-print=print")
-    .
-    To switch to colour
-    .
-    > :col
-    .
-    To switch to mono
-    .
-    > :bw
-
 Homepage: https://github.com/gabrielbcn/colorback
 Author: Gabriel Mesquida Masana <gabriel.mesquida@me.com>
 Maintainer: Gabriel Mesquida Masana <gabriel.mesquida@me.com>
 Copyright: See license file
 Category: Development
 Build-type: Simple
-Cabal-version: >= 1.16
+Cabal-version: >= 2.0
 
 extra-doc-files:
     README.md
@@ -37,17 +16,15 @@ source-repository head
     type: git
     location: https://github.com/gabrielbcn/colorback
 
-Library
-    default-language: Haskell2010
-    hs-source-dirs: src
-
+library
+    default-language: 
+        Haskell2010
+    hs-source-dirs: 
+        src
     exposed-modules: 
-    Colorback
-
-    build-depends:
-        base >= 4.0,
-        pretty-show >= 1.10,
-        hscolour >= 1.20
-
-    ghc-options: -Wall
+        Colorback
+    build-depends: 
+        base, pretty-show, hscolour
+    ghc-options: 
+        -Wall
 
