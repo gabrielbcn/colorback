@@ -42,7 +42,7 @@ Library
     hs-source-dirs: src
 
     exposed-modules: 
-    colorback
+    Colorback
 
     build-depends:
         base >= 4.0,

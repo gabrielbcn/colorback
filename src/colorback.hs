@@ -10,10 +10,43 @@ where
 
 import           Language.Haskell.HsColour
                                      as HsColour
+                                      ( hscolour
+                                      , ColourPrefs
+                                          ( conid
+                                          , conop
+                                          , varid
+                                          , varop
+                                          , string
+                                          , char
+                                          , number
+                                          , layout
+                                          , keyglyph
+                                          , comment
+                                          , cpp
+                                          , definition
+                                          , keyword
+                                          , selection
+                                          , variantselection
+                                          )
+                                      , Output(TTYg)
+                                      )
 import           Language.Haskell.HsColour.Colourise
                                      as HsColour
+                                      ( defaultColourPrefs
+                                      , Colour
+                                          ( Yellow
+                                          , Cyan
+                                          , Magenta
+                                          , Rgb
+                                          , Red
+                                          , Green
+                                          , Blue
+                                          )
+                                      , Highlight(Foreground, Bold)
+                                      )
 import           Language.Haskell.HsColour.Output
                                      as HsColour
+                                      ( TerminalType(XTerm256Compatible) )
 import           Text.Show.Pretty     ( ppShow )
 
 myColourPrefs :: ColourPrefs

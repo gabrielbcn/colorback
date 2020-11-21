@@ -7,7 +7,7 @@ Tired of seeing variations of packages to make GHCi output good enough for me , 
 
 ### To get it installed
 
-1. Clone and ```cabal install --lib```
+1. Clone and ```cabal new-install --lib```
 
 1. Add the following lines to your @ghci.conf@ file:
 
